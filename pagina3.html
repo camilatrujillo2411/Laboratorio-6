@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perros y Gatos - Comparación</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-md bg-body-tertiary border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Perros y Gatos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Mostrar menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina1.html">pagina 1</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina2.html">pagina 2</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="pagina3.html">pagina 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-4">
+    <h1 class="display-4 fw-bold mb-3">Perros y gatos</h1>
+    <p class="lead">Son distintos, pero los dos son excelentes compañeros.</p>
+
+    
+    <div class="row g-3 my-3">
+      <div class="col-12 col-md-4"><img src="img/perro.jpg" class="img-fluid rounded" alt="Cara de un perro"></div>
+      <div class="col-12 col-md-4"><img src="img/huella.svg" class="img-fluid rounded" alt="Huella de una pata"></div>
+      <div class="col-12 col-md-4"><img src="img/gato.jpg" class="img-fluid rounded" alt="Cara de un gato"></div>
+    </div>
+
+   
+    <p>Aunque tienen formas de ser distintas, los perros y los gatos son las mascotas más comunes en los hogares. Los dos ofrecen compañía y suelen hacer más alegre la rutina de la familia.</p>
+    <p>Los perros necesitan más tiempo y salidas diarias, mientras que los gatos se adaptan mejor a pasar ratos solos. Por eso, elegir entre uno y otro depende del espacio, del tiempo libre y del estilo de vida de cada familia.</p>
+    <p>Lo más importante es que cualquier mascota reciba comida, agua, atención médica y mucho cariño. Adoptar en un refugio es una buena opción, porque hay muchos perros y gatos esperando un hogar.</p>
+
+  
+    <h2 class="h4 mt-5">Comparación rápida</h2>
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr><th scope="col"></th><th scope="col">Perros</th><th scope="col">Gatos</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Carácter</th><td>Sociables y leales</td><td>Independientes y curiosos</td></tr>
+          <tr><th scope="row">Ejercicio</th><td>Paseos diarios</td><td>Juegos dentro de casa</td></tr>
+          <tr><th scope="row">Aseo</th><td>Necesitan baño de vez en cuando</td><td>Se asean solos</td></tr>
+          <tr><th scope="row">Compañía</th><td>Quieren estar con su familia</td><td>Aguantan mejor ratos solos</td></tr>
+          <tr><th scope="row">Comunicación</th><td>Ladran y mueven la cola</td><td>Maúllan y ronronean</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    
+    <div class="card my-4">
+      <div class="card-body">
+        <h2 class="card-title h5">¿Cuál es mejor?</h2>
+        <p class="card-text">No hay una respuesta única. Depende de cada persona y de cada familia.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalConclusion">Ver conclusión</button>
+      </div>
+    </div>
+
+    
+    <div class="modal fade" id="modalConclusion" tabindex="-1" aria-labelledby="tituloModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="tituloModal">Conclusión</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            Los perros y los gatos son diferentes, pero los dos dan compañía y cariño. Lo mejor es elegir la mascota que se adapte a tu tiempo y a tu espacio, y cuidarla toda su vida.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center text-body-secondary py-4 border-top mt-5">
+    Laboratorio 6 - Programación Web
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400" role="img" aria-label="Un hueso">
+  <rect width="200" height="200" rx="16" fill="#e9f7ec"/>
+  <defs>
+    <g id="forma-hueso">
+      <rect x="55" y="88" width="90" height="24" rx="8"/>
+      <circle cx="52" cy="86" r="14"/>
+      <circle cx="52" cy="114" r="14"/>
+      <circle cx="148" cy="86" r="14"/>
+      <circle cx="148" cy="114" r="14"/>
+    </g>
+  </defs>
+  <use href="#forma-hueso" fill="#b9a98f" stroke="#b9a98f" stroke-width="8" stroke-linejoin="round"/>
+  <use href="#forma-hueso" fill="#fffaf0"/>
+</svg>

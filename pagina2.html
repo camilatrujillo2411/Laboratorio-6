@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perros y Gatos - Gatos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-md bg-body-tertiary border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Perros y Gatos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Mostrar menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina1.html">pagina 1</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="pagina2.html">pagina 2</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina3.html">pagina 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-4">
+    <h1 class="display-4 fw-bold mb-3">Los gatos</h1>
+    <p class="lead">Los gatos son independientes, curiosos y muy limpios.</p>
+
+   
+    <div id="carruselGatos" class="carousel slide my-4" data-bs-ride="carousel" data-bs-theme="dark">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carruselGatos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+        <button type="button" data-bs-target="#carruselGatos" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+        <button type="button" data-bs-target="#carruselGatos" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/gato.jpg" class="d-block mx-auto" style="height: 300px;" alt="Cara de un gato">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pescado.jpg" class="d-block mx-auto" style="height: 300px;" alt="Un pescado">
+        </div>
+        <div class="carousel-item">
+          <img src="img/ovillo.jpg" class="d-block mx-auto" style="height: 300px;" alt="Un ovillo de estambre">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carruselGatos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carruselGatos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+    
+    <p>Los gatos viven con las personas desde hace mucho tiempo. Se hicieron populares porque cazan ratones y porque son compañeros tranquilos que se adaptan bien a la vida en una casa o en un departamento.</p>
+    <p>Pasan muchas horas durmiendo y también dedican tiempo a asearse con la lengua. Les encanta trepar, esconderse en cajas y jugar con objetos pequeños, como una pelota o un ovillo de estambre.</p>
+    <p>Aunque parezcan independientes, los gatos también necesitan atención. Hay que darles comida adecuada, agua fresca, un lugar limpio para su arenero y un rascador para que no arañen los muebles.</p>
+
+    
+    <h2 class="h4 mt-5">Cómo son los gatos</h2>
+    <ul class="list-group mb-4">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Ágiles <span class="badge text-bg-primary rounded-pill">saltan y trepan</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Limpios <span class="badge text-bg-success rounded-pill">se asean solos</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Curiosos <span class="badge text-bg-warning rounded-pill">exploran todo</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Dormilones <span class="badge text-bg-secondary rounded-pill">12 a 16 horas al día</span>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="text-center text-body-secondary py-4 border-top mt-5">
+    Laboratorio 6 - Programación Web
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
